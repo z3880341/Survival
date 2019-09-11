@@ -30,7 +30,7 @@
                     @Override
                     public void onHeartbeat(int heartbeatId) {
                         Log.e(TAG, "onHeartbeat: Survival触发心跳heartbeatId="+heartbeatId);
-                        //此方法为工具内置的心跳回调,工具有2个服务所以会有2个心跳id,各种每隔20秒跳动一次
+                        //此方法为工具内置的心跳回调,工具有3个服务所以会有3个心跳id
 
                     }
 
