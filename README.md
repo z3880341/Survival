@@ -12,7 +12,8 @@
 
 使用方法简介
 
-private void initSurvival(){
+      private void initSurvival(){
+
         mBuild = new Survival(MainActivity.this, "测试","测试",R.mipmap.ic_launcher)
                 .setDoubleServiceSurvival(true)//双服务互启保活
                 .setServiceContinuousStart(false)//取消双服务保活,每次触发都启动服务
